@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shristi Shetty | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shristi Shetty</h1>
+        <p>Finance & Data Analysis Enthusiast</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am an MBA student specializing in Finance, passionate about financial modeling, data analysis, and investment research.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card" onclick="openModal('project1')">
+            <h3>Comparative Analysis: Tata Steel vs JSW Steel</h3>
+            <p>Analyzed revenue growth, profit margins, and return on equity.</p>
+        </div>
+        <div class="project-card" onclick="openModal('project2')">
+            <h3>Research on Gig Economy in India</h3>
+            <p>Examined challenges and opportunities in the gig economy sector.</p>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Financial Modeling</li>
+            <li>Excel & Data Analysis</li>
+            <li>Accounting & Investment Research</li>
+            <li>Public Speaking & Networking</li>
+        </ul>
+    </section>
+    
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Bloomberg Market Concepts (2024)</li>
+            <li>Career Essential in Data Analysis by Microsoft & LinkedIn (2024)</li>
+            <li>Young Industry Enthusiast - Capital Market by Infosys (2024)</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:shristishetty20@gmail.com">shristishetty20@gmail.com</a></p>
+        <p>LinkedIn: <a href="#">Your LinkedIn Profile</a></p>
+    </section>
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-text"></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
